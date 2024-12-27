@@ -1,0 +1,57 @@
+Keyifli Anlar Harika Kahvelerle Gerçekleşir(Ana Sayfa Resim Üstü Yazı)
+...
+Özel Kahve Çeşitleri
+Aklınıza gelen bir çok kahve çeşidi sizleri bekliyor
+.
+Karton Bardak Seçimi
+İstediğiniz karton bardaktan kahvenizi alabilirsiniz
+.
+Çay Çeşitleri
+Yüzlerce çay çeşitini çay sevenler için sunuyoruz
+.
+Yiyecekler
+İçeceğinin yanına sıcacık hamurişi yiyecekler hazır
+(Yan yana divler)
+...
+Hakkımızda(Sağına Resim)(Altına TArihçeli Yazı)
+İlk Starbucks 1971 yılındaA, Seattle'ın tarihi Pike Place Market'inde küçük bir dükkan olarak açıldı. Bu küçük ve samimi mağazada dünyanın en iyi tam çekirdek kahvelerinden bazılarını taze kavrulmuş olarak sunuyorduk. Starbucks adı, uzak denizlere duyduğumuz romantizme ve Avrupalı ilk kahve tüccarlarının denizcilik geleneğine gönderme olarak Moby Dick'ten esinlenildi.
+ 
+Howard Schultz (Starbucks'ın eski Yönetim ve İcra Kurulu Başkanı) 1981'de Starbucks®'a ilk gelişinde bir fincan Sumatra içti. Bu lezzet onu çok derinden etkiledi ve bir yıl sonra Starbucks’a katılmasını sağladı.
+ 
+1983'te İtalya'yı ziyaret eden Howard, İtalyan kafelerinde yaşanan sıcak kahve deneyiminin büyüsüne kapıldı. Aynen İtalyan geleneğindeki gibi, insanların sohbet ettikleri ve bir topluluğa ait olma duygusunu yaşadıkları kafe kültürünü Amerika’ya getirmek; ev ile iş arasında üçüncü bir adres yaratmak istiyordu. ""Il Giornale"" adını verdiği kafeleri açmak için kısa bir süreliğine şirketten ayrıldı. Ancak çok geçmeden Ağustos 1987'de, yerel yatırımcıların desteğiyle Starbucks’ı satın almak için döndü.
+...
+800+
+MUTLU MÜŞTERİ
+12
+ŞUBE SAYISI
+50
+ÇALIŞAN SAYISI
+16000+
+OLUMLU GERİDÖNÜŞ
+(Tarzı birşey - yanyana)
+...
+2 büyük div alt alta 
+(İlkinin yazı solda resim sağda)
+(İkincisinde ise tam tersi)
+İlki:
+Anında Sipariş Servisi
+Müşterilerimizin siparişlerini fazla beklememesi için yüksek maliyetli kahve makineleri kullanmaktayız. Ayrıca titizliği ön planda tutmak adına personellerimiz siparişlerin ardından sürekli olarak makinelerimizi steril tutmaktadır.
+İkincisi
+Kendi Kahvemizi Üretiyoruz
+Kahvelerimizi tamamen kendimiz en iyi ve doğal koşullarda üretiyoruz. Böylelikle tazeliğini ve müşteri memnuniyetini hiç kaybetmiyoruz.
+...
+foooter da 
+© 2023 CafeAdı from BurakWEB
+...
+html için lisans...
+
+<!-- =================================================
+License: Burak Başal / BurakWEB
+======================================================= -->
+
+css için lisan...
+/*=================================================
+License:Burak Başal / BurakWEB
+=================================================*\
+
+

@@ -1,0 +1,448 @@
+/*=================================================
+License:Burak Başal / BurakWEB
+=================================================*/
+/*
+4 SİTE RENGİM
+rgba(164, 129, 64)
+#3b1c1c;
+White
+black
+*/
+* {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    color: rgb(0, 0, 0);
+}
+::selection{
+    background-color: rgba(164, 129, 64, 0.479);
+}
+a {
+    text-decoration: none;
+}
+
+.site {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.bas {
+    width: 100%;
+    background-color: black;
+    height: 200px;
+}
+
+.baslik-1 {
+    height: 154px;
+    background-color: #3b1c1c;
+}
+
+.logo {
+    position: relative;
+    left: 45%;
+    bottom: 130px;
+    width: 103px;
+    height: 104px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(164, 129, 64);
+    list-style-type: none;
+}
+
+ul li {
+    transition: 0.2s;
+    position: relative;
+    font-size: 16pt;
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    background-color: rgb(164, 129, 64);
+    text-align: center;
+    line-height: 75px;
+    color: rgb(255, 255, 255);
+}
+
+ul li:hover {
+    background-color: rgb(125, 96, 42);
+}
+
+ul li ul {
+    border-top: 1px solid white;
+    display: none;
+    width: 150px;
+    height: auto;
+    padding: 0px;
+    position: absolute;
+    z-index: 3;
+}
+
+ul li ul li {
+    display: block;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.sagbaslik {
+    width: 500px;
+    position: relative;
+    left: 60%;
+    bottom: 195px;
+    font-family: cursive;
+    font-size: 18pt;
+    color: rgba(164, 129, 64, 0.701);
+}
+
+.solbaslik {
+    position: relative;
+    top: 48px;
+    font-size: 16pt;
+    font-family: cursive;
+}
+/*YENİ*/
+.anaresim {
+    position: relative;
+    top: 29px;
+    width: 100%;
+    height: 500px;
+}
+
+.anaresimyazi {
+    color: white;
+}
+
+.anaresimyazilar {
+    position: relative;
+    left: 20%;
+    width: 60%;
+    font-size: 30pt;
+    bottom: 80%;
+    text-align: center;
+}
+/*YENİ*/
+.div4lu {
+    justify-content: space-between;
+    display: flex;
+    width: 98%;
+    position: relative;
+    top: 50px;
+    height: 100px;
+}
+
+.kutu1 {
+    width: 20%;
+    height: 200px;
+    background-color: white;
+}
+
+.kutu2 {
+    width: 20%;
+    height: 200px;
+    background-color: white;
+}
+
+.kutu3 {
+    width: 20%;
+    height: 200px;
+    background-color: white;
+}
+
+.kutu4 {
+    width: 20%;
+    height: 200px;
+    background-color: white;
+}
+
+.resimler4lu {
+    position: relative;
+    left: 80px;
+    top: 100px;
+    width: 106px;
+    height: 100px;
+}
+
+.div-h1-4lu-1 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    padding: 5px;
+}
+
+.div-p-4lu-1 {
+    position: relative;
+    top: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+/*YENİ*/
+.hakkımızda-div {
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    top: 400px;
+    background-image: url(resimler/1-Arkaplan.jpg);
+    background-size: cover;
+}
+
+.hakkımızda-div-yazi {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+}
+
+.hakkımızda-div-resim {
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.699);
+    z-index: 5;
+}
+
+.hakkimizda-p {
+    height: 100px;
+    position: relative;
+    top: -520px;
+    text-align: center;
+}
+
+.hakkimizda-h1 {
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+.hakkımızda-div-yazi>h1,
+p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hakkimizda-img {
+    width: 103px;
+    height: 104px;
+    position: relative;
+    top: -520px;
+    left: 42%;
+}
+/*YENİ*/
+.fakemusteri {
+    justify-content: space-between;
+    display: flex;
+    color: black;
+    width: 100%;
+    height: 257px;
+    position: relative;
+    top: 400px;
+    background-color: rgba(164, 129, 64);
+}
+
+.fakemusteri1 {
+    width: 20%;
+    height: 257px;
+    background-color: rgba(164, 129, 64);
+    text-align: center;
+}
+
+.fakemusteri1>p {
+    position: relative;
+    top: -257px;
+    height: 257px;
+    line-height: 300px;
+    font-size: 18pt;
+}
+
+.musteri-h1-div {
+    position: relative;
+    top: 0;
+    height: 257px;
+    line-height: 190px;
+}
+
+.musteri-h1-div>h1 {
+    color: white;
+    font-size: 40pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*YENİ*/
+.sparisdiv{
+    width: 100%;
+    height: 160%;
+    background-color: #3b1c1c;
+    position: relative;
+    top: 400px;
+}
+.sparisdiv1{
+    border-radius: 25px;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    top: 4%;
+    left: 4%;
+    height: 44%;
+    width: 90%;
+    background-color: white;
+    z-index: 20;
+}
+.sparisdiv2{
+    border-radius: 25px;    
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    top: 8%;
+    left: 4%;
+    height: 44%;
+    width: 90%;
+    background-color: white;
+    z-index: 22;
+}
+.sparisdiv1yazi{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+.sparisdiv1resim{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+.sparisdiv2yazi{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.sparisdiv2resim{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+.sparisresim{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 35px;
+}
+.a4{
+    text-align: center;
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+}
+.a4 > p{
+    position: relative;
+    top:-300px;
+    color: #3b1c1c;
+    font-size: 13pt;
+}
+.a4 > h1{
+    position: relative;
+    top:60px;
+}
+.a4 > button{
+        position: relative;
+        top:-600px;
+        width: 280px;
+        height: 80px;
+        border-radius: 25px;
+        font-size: 20pt;
+        border: 2px solid green;
+        color: green;
+        background-color: #3b1c1c;
+        font-family: cursive;
+}
+#sparisbutton1{
+    width: 60%;
+    background-color: white;
+    color: #3b1c1c;
+    border: 2px solid #3b1c1c;
+    transition: 0.6s;
+}
+#sparisbutton1:hover{
+    width: 70%;
+    background-color: #3b1c1c;
+    color: white;
+    border: 2px solid white;
+}
+#sparisbutton2{
+    width: 90%;
+    background-color: #3b1c1c;
+    color: white;
+    border: 2px solid white;
+}
+#sparisbutton2:hover{
+    width: 95%;
+    color: #3b1c1c;
+    background-color: white;
+    border: 2px solid #3b1c1c;
+    transition: 0.6s;
+}
+/*YENİ*/
+.footer{
+    width: 100%;
+    height:200px;
+    background-color: rgba(164, 129, 64);
+    position: relative;
+    bottom: -400px;
+    margin: 0px;
+    padding: 0px;
+}
+.footeric{
+    width: 60%;
+    position: relative;
+    left: 20%;
+    background-color:#3b1c1c4b;
+    border-radius: 100px;
+    line-height: 200px;
+    height: 100%;
+    text-align: center;
+    font-size: 30pt;
+}
+.footeric>p>a{
+    color:black;
+    font-size:  40pt;
+    font-family: Courier, monospace;
+}
+.sonbosluk{
+    width:100%;
+    height: 110%;
+    background-image: url(resimler/1-Arkaplan.jpg);
+    background-size: cover;
+}
+.sonbosluk>button{
+    border-radius: 25px;
+    width: 30%;
+    height: 20%;
+    position: relative;
+    top: 70%;
+    background-color: white;
+    color: #3b1c1c;
+    border: 2px solid #3b1c1c;
+    transition: 0.6s;
+    font-size: 30pt
+}
+.sonbosluk>button:hover{
+    width: 40%;
+    background-color: white;
+    color: #3b1c1c;
+    border: 2px solid #3b1c1c;
+}
+/*=================================================
+License:Burak Başal / BurakWEB
+=================================================*/
