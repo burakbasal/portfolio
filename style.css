@@ -1,11 +1,10 @@
-/* Tema geçişi için kaydırıcı */
 .theme-toggle-container {
-    position: absolute; /* Sabit konumda olması için */
+    position: absolute;
     top: 20px;
     right: 20px;
-    width: 120px; /* Konteyner genişliği */
+    width: 120px;
     height: 40px;
-    background-color: lime; /* Varsayılan olarak arka plan yeşil */
+    background-color: lime;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -15,49 +14,42 @@
     padding: 0 5px;
 }
 
-/* Kaydırıcı butonu */
 .theme-toggle {
     width: 50px;
     height: 30px;
-    background-color: #ffffff; /* Varsayılan olarak buton beyaz */
+    background-color: #ffffff;
     border-radius: 20px;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Light mode için kaydırıcıyı sağa kaydır */
 body.light-mode .theme-toggle {
-    transform: translateX(60px); /* 60px sağa kaydır */
-    background-color: #ffffff; /* Light mode'da buton mavi olacak */
+    transform: translateX(60px);
+    background-color: #ffffff;
 }
 
-/* Light mode için arka plan rengi değişikliği */
 body.light-mode .theme-toggle-container {
-    background-color: #007bff; /* Light mode'da arka plan beyaz olacak */
+    background-color: #007bff;
 }
 
-/* Koyu tema için kaydırıcı */
 body.dark-mode .theme-toggle {
-    background-color: #ffffff; /* Koyu tema için buton beyaz olacak */
+    background-color: #ffffff;
 }
 
-/* Koyu tema geçişi için container arka planı */
 body.dark-mode .theme-toggle-container {
-    background-color: lime; /* Koyu tema için arka plan yeşil olacak */
+    background-color: lime;
 }
 
-/* Genel sayfa düzeni */
 body.light-mode {
     background-color: #ffffff;
     color: #000000;
 }
 
-/* Varsayılan koyu tema */
 body {
     font-family: Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Koyu tema arka planı */
-    color: #e0e0e0; /* Koyu tema metin rengi */
+    background-color: #121212;
+    color: #e0e0e0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,41 +59,38 @@ body {
     padding: 20px;
 }
 
-/* Beyaz tema için eleman renkleri */
 body.light-mode .top-text, 
 body.light-mode .bottom-text {
-    color: #000000; /* Beyaz temada metin rengi siyah */
+    color: #000000;
 }
 
 body.light-mode .card {
-    background: #f0f0f0; /* Beyaz tema için açık gri kart arka planı */
-    color: #000000; /* Kart metin rengi siyah */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+    background: #f0f0f0;
+    color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 body.light-mode .card h1 {
-    color: #333333; /* Başlık rengi koyu gri */
+    color: #333333;
 }
 
 body.light-mode .card p {
-    color: #555555; /* Paragraf rengi orta gri */
+    color: #555555;
 }
 
 body.light-mode .card a {
-    background-color: #007bff; /* Mavi buton */
-    color: #ffffff; /* Buton metin rengi beyaz */
+    background-color: #007bff;
+    color: #ffffff;
 }
 
 body.light-mode .card a:hover {
-    background-color: #0056b3; /* Hoverda koyu mavi */
+    background-color: #0056b3;
 }
 
-/* Konsol tarzı yazı */
 body.light-mode .typewriter h2 {
-    color: #333333; /* Konsol yazısının rengi koyu gri */
+    color: #333333;
 }
 
-/* Normalde, koyu temada stiller */
 .top-text, .bottom-text {
     font-size: 1.2rem;
     color: lime;
@@ -109,7 +98,7 @@ body.light-mode .typewriter h2 {
 }
 
 .card {
-    background: #1e1e1e; /* Koyu tema kart arka planı */
+    background: #1e1e1e;
     padding: 20px 40px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
@@ -148,7 +137,6 @@ body.light-mode .typewriter h2 {
     background-color: rgb(0, 191, 0);
 }
 
-/* Konsol tarzı yazı */
 .typewriter h2 {
     font-size: 1.2rem;
     color: #00ff00;
@@ -169,7 +157,6 @@ body.light-mode .typewriter h2 {
     animation-delay: 1s;
 }
 
-/* Animasyon */
 @keyframes typing {
     from {
         width: 0;
@@ -185,7 +172,6 @@ body.light-mode .typewriter h2 {
     }
 }
 
-/* Mobil uyumlu stil */
 @media (max-width: 600px) {
     body {
         padding: 10px;
