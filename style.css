@@ -1,9 +1,19 @@
+html, body {
+    height: 100%; 
+    margin: 0;    
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
 .theme-toggle-container {
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 120px;
-    height: 40px;
+    width: 45px;
+    height: 30px;
     background-color: lime;
     border-radius: 20px;
     display: flex;
@@ -15,20 +25,20 @@
 }
 
 .theme-toggle {
-    width: 50px;
-    height: 30px;
-    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    background-color: #121212;
     border-radius: 20px;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 body.light-mode .theme-toggle {
-    transform: translateX(60px);
+    transform: translateX(25px);
     background-color: #ffffff;
 }
 
 body.light-mode .theme-toggle-container {
-    background-color: #007bff;
+    background-color: #FF00FF;
 }
 
 body.dark-mode .theme-toggle {
@@ -41,7 +51,7 @@ body.dark-mode .theme-toggle-container {
 
 body.light-mode {
     background-color: #ffffff;
-    color: #000000;
+    color: #FF00FF;
 }
 
 body {
@@ -61,7 +71,7 @@ body {
 
 body.light-mode .top-text, 
 body.light-mode .bottom-text {
-    color: #000000;
+    color: #FF00FF;
 }
 
 body.light-mode .card {
@@ -71,7 +81,7 @@ body.light-mode .card {
 }
 
 body.light-mode .card h1 {
-    color: #333333;
+    color: #FF00FF;
 }
 
 body.light-mode .card p {
@@ -79,18 +89,21 @@ body.light-mode .card p {
 }
 
 body.light-mode .card a {
-    background-color: #007bff;
+    background-color: #FF00FF;
     color: #ffffff;
 }
 
 body.light-mode .card a:hover {
-    background-color: #0056b3;
+    background-color: rgb(213, 50, 213);
+    ;
 }
 
 body.light-mode .typewriter h2 {
-    color: #333333;
+    color: #FF00FF;
 }
-
+body.light-mode .typewriter h2 {
+    border-right: 2px solid #FF00FF;
+}
 .top-text, .bottom-text {
     font-size: 1.2rem;
     color: lime;
@@ -98,7 +111,8 @@ body.light-mode .typewriter h2 {
 }
 
 .card {
-    background: #1e1e1e;
+    position: relative; /* Konumlandırma için gerekli */
+    background: #1e1e1e; /* Arka plan rengini koyu yapıyoruz */
     padding: 20px 40px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
@@ -106,6 +120,19 @@ body.light-mode .typewriter h2 {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    overflow: hidden; /* İçeriğin taşmasını engeller */
+}
+
+.card::before {
+    content: ""; /* İçerik ekliyoruz */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit; /* Aynı arka plan rengini burada veriyoruz */
+    filter: blur(10px); /* Arka planı bulanıklaştırıyoruz */
+    z-index: -1; /* Pseudo-elementi arka plana alıyoruz */
 }
 
 .card h1 {
@@ -199,5 +226,10 @@ body.light-mode .typewriter h2 {
 
     .typewriter h2 {
         font-size: 1rem;
+    }
+    .card {
+
+        max-width: 70%;
+
     }
 }
