@@ -1,2 +1,1 @@
-İlk deneme
-İkinci deneme
+Hızlı test
