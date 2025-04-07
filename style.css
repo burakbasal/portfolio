@@ -413,15 +413,15 @@ body.light-theme .theme-switch::before {
     }
     
     .profile h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .profile h2 {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
     
     .description {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     
     .theme-switch {
