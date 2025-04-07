@@ -3,73 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burak Basal - Game Developer</title>
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/10478/10478244.png" type="image/png">
+    <title>Burak Basal - Developer</title>
+    <link rel="icon" href="https://icons.iconarchive.com/icons/iconarchive/wild-camping/128/Fox-icon.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body class="dark-theme">
     <div class="theme-switch" onclick="toggleTheme()">
         <i class="fas fa-moon" id="theme-toggle"></i>
     </div>
-    
     <main class="container">
         <div class="profile">
-            <h1>Burak Başal</h1>
-            <h2>Game Developer</h2>
+            <h1>Burak Basal</h1>
+            <h2>Jr. Game Developer | Front-End Web Developer</h2>
             <div class="description">
-                <p>"Web & Game Developer: Turning caffeine into code, one line at a time."</p>
+                <p>"Turning caffeine into code, one line at a time."</p>
             </div>
         </div>
 
         <div class="social-links">
+            <a href="https://www.linkedin.com/in/burak-basal/" class="social-link" target="_blank" rel="noopener noreferrer" data-key="3">
+                <i class="fab fa-linkedin"></i>
+            </a>
             <a href="https://github.com/burakbasal" class="social-link" target="_blank" rel="noopener noreferrer" data-key="1">
                 <i class="fab fa-github"></i>
+            </a>
+            <a href="https://gitlab.com/burakbasal" class="social-link" target="_blank" rel="noopener noreferrer" data-key="3">
+                <i class="fab fa-gitlab"></i>
             </a>
             <a href="https://x.com/burakbasall" class="social-link" target="_blank" rel="noopener noreferrer" data-key="2">
                 <i class="fa-brands fa-x-twitter"></i>
             </a>
-            <a href="https://www.linkedin.com/in/burakbasall/" class="social-link" target="_blank" rel="noopener noreferrer" data-key="3">
-                <i class="fab fa-linkedin"></i>
+            <a href="https://instagram.com/burak.bsl" class="social-link" target="_blank" rel="noopener noreferrer" data-key="3">
+                <i class="fab fa-instagram"></i>
             </a>
         </div>
     </main>
-
-    <script>
-        const themeToggle = document.getElementById('theme-toggle');
-        const body = document.body;
-        
-        localStorage.setItem('theme', 'dark');
-        body.classList.add('dark-theme');
-        
-        themeToggle.classList.remove('fa-moon');
-        themeToggle.classList.add('fa-sun');
-
-        function toggleTheme() {
-            const isDark = body.classList.contains('dark-theme');
-            body.classList.remove(isDark ? 'dark-theme' : 'light-theme');
-            body.classList.add(isDark ? 'light-theme' : 'dark-theme');
-            themeToggle.classList.toggle('fa-sun');
-            themeToggle.classList.toggle('fa-moon');
-            localStorage.setItem('theme', isDark ? 'light' : 'dark');
-        }
-
-        document.addEventListener('keydown', function(event) {
-            if (event.key.toLowerCase() === 't') {
-                toggleTheme();
-            }
-            if (event.key === '1') {
-                window.open('https://github.com/burakbasal', '_blank');
-            }
-            if (event.key === '2') {
-                window.open('https://x.com/burakbasall', '_blank');
-            }
-            if (event.key === '3') {
-                window.open('https://www.linkedin.com/in/burakbasall/', '_blank');
-            }
-        });
-    </script>
 </body>
 </html> 
