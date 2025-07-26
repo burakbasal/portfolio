@@ -30,9 +30,9 @@ document.addEventListener('keydown', function(event) {
         window.open('https://gitlab.com/burakbasal', '_blank');
     }
     if (event.key === '4') {
-        window.open('https://x.com/burakbasall', '_blank');
+        window.open('https://x.com/', '_blank');
     }
     if (event.key === '5') {
-        window.open('https://instagram.com/burak.bsl', '_blank');
+        window.open('https://instagram.com/iburakbasal', '_blank');
     }
 });
